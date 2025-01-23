@@ -1,6 +1,7 @@
     1  history
     2  clear
     3  sudo apt list | grep -i python3.10
+    4  clear
     5  wget https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tgz
     6  tar -xvzf Python-3.10.16.tgz
     7  sudo make install
