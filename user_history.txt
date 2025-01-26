@@ -1,0 +1,13 @@
+1  history
+2  clear
+3  sudo apt list | grep -i python3.10
+4  wget https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tgz
+5  tar -xvzf Python-3.10.16.tgz
+6  ls
+7  cd Python-3.10.16
+8  python3.10 --version
+9  python3.10 -m venv labelstudio_env
+10  source labelstudio_env/bin/activate
+11  pip install label-studio
+12  label-studio start
+13  history > user_history.txt
